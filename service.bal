@@ -1,5 +1,4 @@
 import ballerina/http;
-import ballerina/sql;
 import ballerina/log;
 
 service /hello on new http:Listener(9090) {
